@@ -2,6 +2,11 @@
   "name": "cardwithvue",
   "version": "0.1.0",
   "private": true,
+  "author": "FoundTheWOUT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FoundTheWOUT/card-with-vue.git"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
