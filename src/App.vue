@@ -1,17 +1,23 @@
 <template>
   <div id="app">
-    <Card />
+    <Card :cardList="cardList"></Card>
     <!-- <div>12</div> -->
   </div>
 </template>
 
 <script>
 import Card from "./components/Card.vue";
+const card = require("./card.json");
 
 export default {
   name: "App",
   components: {
     Card,
+  },
+  data() {
+    return {
+      cardList: card.cardList,
+    };
   },
 };
 </script>
